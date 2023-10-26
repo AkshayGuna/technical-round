@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.size{
+    font-size: 73px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-top: 40px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+#search{
+    height: 45vh;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#search h1{
+    color: yellow;
+}
+
+#search-input {
+    width: 60%;
+    max-width: 400px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: #333;
+}
+
+#search-button {
+    padding: 7px 25px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#search p{
+    font-size: 18px;
+    text-align: center;
+    margin: 30px 0 60px 0;
+    color: rgb(166, 255, 0);
+}
+
+#matches{
+    font-weight: bold;
+}
+
+#result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nores{
+    padding-top: 20vh;
+}
+
+#cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+    min-width: 90vw;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 10px;
+}
+
+.image{
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    margin-right: 10px;
+}
+
+.image img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.fav{
+    display: flex;
+    flex-direction: row;
+}
+
+.fav i{
+    margin-right: 5px;
+}
+
+.names{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.nicknames{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.nicknames h4{
+    margin-right: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px 8px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    border-left: 2px solid black;
+}
+
+.link a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+}
