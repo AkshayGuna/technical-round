@@ -230,7 +230,10 @@ function noResult(){
     const resultSection = document.getElementById('result');
 
     let result = `
-        <p class="nores">No Results Found</p>
+        <span class="nores">
+            <i class='bx bxs-sad yellow emojisize' ></i>
+            <p>No Results Found</p>
+        </span>
     `;
 
     resultSection.innerHTML = result
